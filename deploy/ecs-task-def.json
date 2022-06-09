@@ -1,0 +1,115 @@
+{
+    "name": "#{APP_NAME}#",
+    "image": "surroundaustralia/prez:#{VERSION}#",
+    "essential": true,
+    "portMappings": [
+        {
+            "containerPort": 8000,
+            "hostPort": 80,
+            "protocol": "tcp"
+        }
+    ],
+    "cpu": 512,
+    "environment": [
+        {
+            "name": "SYSTEM_URI",
+            "value": "#{SYSTEM_URI}#"
+        },
+        {
+            "name": "DEBUG",
+            "value": "#{DEBUG}#"
+        },
+        {
+            "name": "DEMO",
+            "value": "#{DEMO}#"
+        },
+        {
+            "name": "ALLOW_PARTIAL_RESULTS",
+            "value": "#{ALLOW_PARTIAL_RESULTS}#"
+        },
+        {
+            "name": "SPARQL_USERNAME",
+            "value": "#{SPARQL_USERNAME}#"
+        },
+        {
+            "name": "SPARQL_PASSWORD",
+            "value": "#{SPARQL_PASSWORD}#"
+        },
+        {
+            "name": "ENABLED_PREZS",
+            "value": "#{ENABLED_PREZS}#"
+        },
+        {
+            "name": "SIDENAV",
+            "value": "#{SIDENAV}#"
+        },
+        {
+            "name": "PREZ_TITLE",
+            "value": "#{PREZ_TITLE}#"
+        },
+        {
+            "name": "PREZ_DESC",
+            "value": "#{PREZ_DESC}#"
+        },
+        {
+            "name": "VOCPREZ_TITLE",
+            "value": "#{VOCPREZ_TITLE}#"
+        },
+        {
+            "name": "VOCPREZ_DESC",
+            "value": "#{VOCPREZ_DESC}#"
+        },
+        {
+            "name": "VOCPREZ_DATA_URI",
+            "value": "#{VOCPREZ_DATA_URI}#"
+        },
+        {
+            "name": "SPACEPREZ_TITLE",
+            "value": "#{SPACEPREZ_TITLE}#"
+        },
+        {
+            "name": "SPACEPREZ_DESC",
+            "value": "#{SPACEPREZ_DESC}#"
+        },
+        {
+            "name": "SPACEPREZ_DATA_URI",
+            "value": "#{SPACEPREZ_DATA_URI}#"
+        },
+        {
+            "name": "VOCPREZ_SPARQL_ENDPOINT",
+            "value": "#{VOCPREZ_SPARQL_ENDPOINT}#"
+        },
+        {
+            "name": "VOCPREZ_SPARQL_USERNAME",
+            "value": "#{VOCPREZ_SPARQL_USERNAME}#"
+        },
+        {
+            "name": "VOCPREZ_SPARQL_PASSWORD",
+            "value": "#{VOCPREZ_SPARQL_PASSWORD}#"
+        },
+        {
+            "name": "SPACEPREZ_SPARQL_ENDPOINT",
+            "value": "#{SPACEPREZ_SPARQL_ENDPOINT}#"
+        },
+        {
+            "name": "SPACEPREZ_SPARQL_USERNAME",
+            "value": "#{SPACEPREZ_SPARQL_USERNAME}#"
+        },
+        {
+            "name": "SPACEPREZ_SPARQL_PASSWORD",
+            "value": "#{SPACEPREZ_SPARQL_PASSWORD}#"
+        },
+        {
+            "name": "SEARCH_ENDPOINTS",
+            "value": "#{SEARCH_ENDPOINTS}#"
+        },
+        {
+            "name": "THEME_VOLUME",
+            "value": "#{THEME_VOLUME}#"
+        }
+    ],
+    "ulimits": [],
+    "mountPoints": [],
+    "memory": 2048,
+    "volumesFrom": []
+}

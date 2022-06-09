@@ -1,0 +1,42 @@
+:root {
+    --primary: #2179cc;
+    --secondary: #195b9b;
+    --tertiary: #73869c;
+    --link: #3366CC;
+    --link-hover: #CC0000;
+    --btn: #1559C3;
+    --btn-hover: #666;
+    --btn-active: #3366CC;
+    --nav-bg: var(--secondary);
+    --nav-color: white;
+    --nav-hover: var(--primary);
+    --header-bg: #ffffff;
+    --footer-bg: #f0eeeb;
+    --card-bg: #efefef;
+    --table-row-bg: #efefef;
+
+    --title-color-primary: #195b9b;
+    --title-color-secondary: black;
+    --border-color: #d8d8d8;
+
+    /* sizing */
+    --page-max-width: 1200px;
+
+    /* fonts */
+    --body-font: arial,sans-serif;
+    --heading-font: Arial, Helvetica, Geneva, sans-serif;
+}
+
+footer {
+    color: #666;
+}
+
+.main-nav-item:hover, .main-nav-item.active {
+    color: var(--nav-color) !important;
+    background-color: var(--nav-bg) !important;
+    text-decoration: underline !important;
+}
+
+header {
+    color: black !important;
+}

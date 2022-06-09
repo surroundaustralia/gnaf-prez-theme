@@ -1,0 +1,20 @@
+themeVolume: theme # no trailing slash
+sidenav: false
+enabledPrezs:
+  - SpacePrez
+spaceprezSparqlEndpoint: #{SPACEPREZ_SPARQL_ENDPOINT}#
+spaceprezSparqlUsername: #{SPACEPREZ_SPARQL_USERNAME}#
+spaceprezSparqlPassword: #{SPACEPREZ_SPARQL_PASSWORD}#
+demo: true
+debug: true
+allowPartialResults: true
+systemUri: http://gnaf.surroundaustralia.com
+prezTitle: gnaf Prez
+prezDesc: Prez instance for gnaf
+spaceprezTitle: gnaf Spatial Data
+spaceprezDesc: Spatial data for gnaf
+spaceprezDataUri: http://exampledata.org
+appName: gnaf
+deploymentMethod: kubernetes # docker, kubernetes or ecs
+storageClass: ebs-sc # for kubernetes deployment
+version: 0.3.1
