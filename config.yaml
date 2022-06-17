@@ -9,12 +9,12 @@ demo: true
 debug: true
 allowPartialResults: true
 systemUri: http://gnaf.surroundaustralia.com
-prezTitle: gnaf Prez
-prezDesc: Prez instance for gnaf
-spaceprezTitle: gnaf Spatial Data
-spaceprezDesc: Spatial data for gnaf
+prezTitle: GNAF Prez
+prezDesc: Prez instance for GNAF
+spaceprezTitle: GNAF Spatial Data
+spaceprezDesc: Spatial data for GNAF
 spaceprezDataUri: http://exampledata.org
 appName: gnaf
 deploymentMethod: kubernetes # docker, kubernetes or ecs
 storageClass: ebs-sc # for kubernetes deployment
-version: 0.3.1
+version: latest

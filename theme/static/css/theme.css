@@ -1,21 +1,21 @@
 :root {
-    --primary: #2179cc;
-    --secondary: #195b9b;
-    --tertiary: #73869c;
-    --link: #3366CC;
-    --link-hover: #CC0000;
-    --btn: #1559C3;
-    --btn-hover: #666;
-    --btn-active: #3366CC;
-    --nav-bg: var(--secondary);
-    --nav-color: white;
-    --nav-hover: var(--primary);
-    --header-bg: #ffffff;
-    --footer-bg: #f0eeeb;
+    --primary: #296d64;
+    --secondary: #195579;
+    --tertiary: #e6e8e6;
+    --link: #15599e;
+    --link-hover: var(--link);
+    --btn: var(--primary);
+    --btn-hover: var(--primary);
+    --btn-active: var(--primary);
+    --nav-bg: var(--tertiary);
+    --nav-color: var(--primary);
+    --nav-hover: #d4d4d4;
+    --header-bg: var(--secondary);
+    --footer-bg: var(--tertiary);
     --card-bg: #efefef;
     --table-row-bg: #efefef;
 
-    --title-color-primary: #195b9b;
+    --title-color-primary: var(--primary);
     --title-color-secondary: black;
     --border-color: #d8d8d8;
 
@@ -27,16 +27,10 @@
     --heading-font: Arial, Helvetica, Geneva, sans-serif;
 }
 
-footer {
-    color: #666;
-}
-
-.main-nav-item:hover, .main-nav-item.active {
-    color: var(--nav-color) !important;
-    background-color: var(--nav-bg) !important;
+a:not(.bubble):not(.main-nav-item):not(.btn), a:not(.bubble):not(.main-nav-item):not(.btn):hover {
     text-decoration: underline !important;
 }
 
-header {
-    color: black !important;
+.bubble {
+    border-radius: 0 !important;
 }
